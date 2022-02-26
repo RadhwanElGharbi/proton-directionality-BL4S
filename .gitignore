@@ -1,0 +1,7 @@
+.DS_Store
+cfg/nusperbin2d.root
+# ignore files in folders
+Build/*
+
+# but keep the folder
+!Build/.keep
