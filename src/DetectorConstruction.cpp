@@ -31,8 +31,8 @@
 
 DetectorConstruction::DetectorConstruction(): G4VUserDetectorConstruction(), fTargetMater(0), fLogicTarget(0)
 {
-  fTargetLength      = 15*cm;
-  fTargetRadius      = 10*cm;
+  fTargetLength      = 25.4*cm;
+  fTargetRadius      = 20*cm;
   fShieldLength      = fTargetLength;
   fShieldThickness      = 2*cm;
   fVacuumLength      = fTargetLength;
